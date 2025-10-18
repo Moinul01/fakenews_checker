@@ -1,0 +1,5 @@
+import joblib
+
+# Load the model (ensure the path is correct and the file name is exact)
+  model_rf = joblib.load('model/Random_Forest.pkl')  # Load your trained Random Forest model
+
